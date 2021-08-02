@@ -1,0 +1,692 @@
+/* container */
+
+.container {
+  width: 1440px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin: 0 auto;
+}
+
+
+/* block */
+
+.block {
+  background-color: rgba(59, 58, 59, 1);
+}
+
+.block-accent {
+  background-color: rgba(0, 150, 136, 1);
+}
+
+/* more */
+
+.more {
+  font-size: 24px;
+  width: 400px;
+  background-color: rgba(59, 58, 59, 1);
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 0;
+  border-radius: 15px;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+
+.more:hover {
+  color: rgba(0, 150, 136, 1);
+}
+
+.more-card-header {
+  font-size: inherit;
+  text-transform: inherit;
+  padding: 0;
+  color: inherit;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: 600;
+  margin: 0;
+  width: auto;
+}
+
+.more-card-header:hover {
+  background-color: rgba(59, 58, 59, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* checklist */
+
+.checklist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checklist li {
+  font-size: 16px;
+  background: url(../img/desktop/checkbox.svg) left calc(50% - 4px) / 28px 36px no-repeat;
+  padding-left: 36px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  margin-bottom: -5px;
+}
+
+
+/* header */
+
+.header {
+  background-color: rgba(59, 58, 59, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.header .logo {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  letter-spacing: -2%;
+  margin-right: auto;
+}
+
+.header .logo img {
+  position: relative;
+  top: -4px;
+  width: 45px;
+  height: 46px;
+  margin-right: 11px;
+}
+
+.header .logo a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+.header .logo a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.header .menu {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  list-style: none;
+}
+
+.header .menu > * + * {
+  margin-left: 20px;
+}
+
+.header .menu li {
+  display: inline-block;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.menu-link:hover {
+  color:rgba(0, 150, 136, 1);
+}
+
+/* promo */
+
+.promo {
+  color: rgba(255, 255, 255, 1);
+}
+
+.promo .container {
+  padding-top: 10px;
+}
+
+.promo .flex {
+  display: flex;
+}
+
+.promo .flex .left {
+  width: 433px;
+  padding-top: 170px;
+}
+
+.promo h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.promo p {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.promo .more {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 32px;
+}
+
+.promo .tagline {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-left: 33px;
+  height: 100px;
+}
+
+.promo .tagline::before {
+  content: '';
+  left: 0;
+  display: block;
+  position: absolute;
+  background-color: rgba(59, 58, 59, 1);
+  width: 10px;
+  height: 100%;
+}
+
+.promo .flex .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.promo .flex .right .highlight {
+  background-color:rgba(59, 58, 59, 1);
+  padding: 21px 10px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  width: 645px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  top: -20px;
+}
+
+.promo .pic_1 {
+  position: relative;
+  z-index: 2;
+}
+
+/* triangles-bottom */
+
+.triangles-bottom {
+  height: 130px;
+}
+
+.triangles-bottom .container {
+  height: 100%;
+}
+
+.triangles-bottom .container {
+  background: rgba(59, 58, 59, 1) url(../img/desktop/accent_triangles.svg) bottom center no-repeat;
+}
+
+/* triangles-top */
+
+.triangles-top {
+  height: 130px;
+}
+
+.triangles-top .container {
+  height: 100%;
+}
+
+.triangles-top .container {
+  background: rgba(0, 150, 136, 1) url(../img/desktop/dark_triangles.svg) bottom center no-repeat;
+}
+
+/* texting */
+
+.texting {
+  position: relative;
+  margin-top: -103px;
+  padding-top: 140px;
+  background: transparent url(../img/desktop/pic_2.svg) calc(50% + 101px) 0 no-repeat;
+  padding-bottom: 48px;
+}
+
+.texting::after {
+  position: absolute;
+  top: 103px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 103px);
+  display: block;
+  content: '';
+  z-index: 1;
+  background: rgba(59, 58, 59, 1) url(../img/desktop/pic_2.svg) calc(50% + 101px) calc(0px - 103px) no-repeat;
+}
+
+.texting .container {
+  position: relative;
+  z-index: 2;
+}
+
+.texting .paper {
+  width: 600px;
+  height: 840px;
+  transform: rotate(-8deg);
+  text-align: center;
+  padding: 80px 20px 0;
+  margin-bottom: 100px;
+}
+
+.texting h2 {
+  font-family: 'Amatic';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 64px;
+  margin: 0 0 4px 0;
+}
+
+.texting .more {
+  width: 300px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.texting .checklist {
+  text-align: left;
+}
+
+.texting .checklist li {
+  font-size: 24px;
+  background: url(../img/desktop/checkbox.svg) left calc(50% - 6px) / 41px 54px no-repeat;
+  padding-left: 56px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.texting .flex {
+  color:rgba(255, 255, 255, 1);
+  padding: 0 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texting .flex h3 {
+  font-family: 'Amatic';
+  font-weight: 700;
+  font-size: 91px;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+  margin-top: 0;
+}
+
+.texting .flex span {
+  color: rgba(0, 150, 136, 1);
+  text-transform: lowercase;
+}
+
+.texting .topics {
+  color: rgba(255, 255, 255, 1);
+  background: url(../img/desktop/topics_bg.svg) center calc(0px + 13px) no-repeat;
+}
+
+.texting .topics > * + * {
+  margin-top: 80px;
+}
+
+.texting .topics .row {
+  display: flex;
+}
+
+.texting .topics .row .col {
+  flex: 1;
+}
+.texting .topics .row .col:nth-child(odd) {
+  text-align: right;
+}
+
+.texting .topics .row > * + * {
+  margin-left: 230px;
+}
+
+.texting .topics h4 {
+  font-family: 'Amatic';
+  font-weight: 700;
+  font-size: 64px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.texting .topics p {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* cards */
+
+.cards .container {
+  padding-top: 20px;
+}
+
+.cards .row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.cards .row:last-child {
+  margin-bottom: 0;
+}
+
+.cards .row > * + * {
+  margin-left: 20px;
+}
+
+.cards .row .col {
+  flex: 1;
+}
+
+.cards .card {
+  position: relative;
+  color: rgba(59, 58, 59, 1);
+}
+
+.cards .card-header {
+  font-family: 'Amatic';
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* card-1 */
+
+.cards .card-1 {
+  padding: 50px 0 0 20px;
+  background: rgba(255, 255, 255, 1) url(../img/desktop/card_1.svg) right bottom no-repeat;
+  height: 454px;
+}
+
+.cards .card-1 .card-header {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+}
+
+.cards .card-1 h6 {
+  font-family: 'Amatic';
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cards .card-1 p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* card-2 */
+
+.cards .card-2 {
+  background: rgba(255, 255, 255, 1) url(../img/desktop/card_2.svg) left bottom no-repeat;
+  height: 454px;
+}
+
+.cards .card-2 .card-header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.cards .card-2 p {
+  position: absolute;
+  font-size: 16px;
+  margin: 0;
+}
+.cards .card-2 .p1 { top: 115px; left: 96px; }
+.cards .card-2 .p2 { top: 115px; left: 318px; }
+.cards .card-2 .p3 { top: 282px; left: 262px; }
+.cards .card-2 .p4 { top: 285px; left: 485px; }
+.cards .card-2 .p5 { top: 377px; left: 340px; }
+
+/* card-3 */
+
+.cards .card-3 {
+  position: relative;
+  height: 188px;
+  padding-top: 20px;
+  background: rgba(255, 255, 255, 1) url(../img/desktop/card_3.svg) right bottom no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards .card-3 .card-header {
+  text-align: center;
+  padding-left: 80px;
+}
+
+.cards .card-3 .checklist {
+  padding-left: 80px;
+}
+
+.cards .card-3 .checklist li {
+  background: url(../img/desktop/checkbox.svg) left calc(50% - 2px) / 23px 30px no-repeat;
+  padding-left: 36px;
+  padding-top: 14px;
+  padding-bottom: 6px;
+}
+
+.cards .card-3 img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* card-4 */
+
+.cards .card-4 {
+  position: relative;
+  background: rgba(255, 255, 255, 1) url(../img/desktop/card_4.svg) right calc(0px + 26px) no-repeat;
+  height: 605px;
+}
+
+.cards .card-4 .card-header {
+  position: absolute;
+  font-size: 64px;
+}
+.cards .card-4 .card-header-1 { top: 20px; left: 80px; }
+.cards .card-4 .card-header-2 { top: 504px; left: 1124px; }
+
+.cards .card-4 .more {
+  position: absolute;
+  width: 225px;
+}
+.cards .card-4 .more-1 { top: 460px; left: 36px; }
+.cards .card-4 .more-2 { top: 532px; left: 846px; }
+
+.cards .card-4 .checklist {
+  position: absolute;
+}
+.cards .card-4 .checklist-1 {
+  top: 44px;
+  right: 89px;
+  text-align: right;
+}
+.cards .card-4 .checklist-1 li {
+  background: url(../img/desktop/checkbox.svg) right calc(50% - 4px) / 28px 36px no-repeat;
+  padding-right: 36px;
+  padding-left: 0;
+}
+.cards .card-4 .checklist-1 li span {
+  color: rgba(0, 150, 136, 1);
+}
+.cards .card-4 .checklist-2 {
+  bottom: 18px;
+  left: 310px;
+}
+
+/* card-5 */
+
+.cards .card-5 {
+  padding-top: 20px;
+  padding-left: 80px;
+  background: rgba(255, 255, 255, 1) url(../img/desktop/card_5.svg) bottom right no-repeat;
+  height: 464px;
+}
+
+.cards .card-5 .card-header {
+  margin-bottom: 20px;
+  font-size: 64px;
+}
+
+.cards .card-5 .checklist {
+  margin-left: 6px;
+  margin-bottom: 20px;
+}
+
+.cards .card-5 .more {
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  font-family: 'Amatic';
+  width: 365px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: rgba(0, 150, 136, 1);
+}
+
+/* card-6 */
+
+.cards .card-6 {
+  position: relative;
+  height: 954px;
+  background: rgba(255, 255, 255, 1) url(../img/desktop/card_6.svg) bottom center no-repeat;
+}
+
+.cards .card-6 .card-header {
+  position: absolute;
+  top: 20px;
+  right: 102px;
+  font-size: 64px;
+}
+
+.cards .card-6 p {
+  margin: 0;
+  position: absolute;
+}
+
+.cards .card-6 .p1 { top: 121px; left: 373px; }
+.cards .card-6 .p2 { top: 155px; left: 787px; }
+.cards .card-6 .p3 { top: 242px; left: 40px; }
+.cards .card-6 .p4 { top: 244px; left: 983px; }
+.cards .card-6 .p5 { top: 364px; left: 1013px; }
+.cards .card-6 .p6 { top: 620px; left: 1155px; }
+.cards .card-6 .p7 { top: 698px; left: 56px; }
+.cards .card-6 .p8 { top: 799px; left: 902px; }
+.cards .card-6 .p9 { top: 895px; left: 351px; }
+
+.cards .card-6 img {
+  position: absolute;
+  top: -80px;
+  left: -54px;
+  z-index: 2;
+}
+
+/* card-7 */
+
+.cards .card-7 {
+  position: relative;
+  height: 790px;
+  background: rgba(255, 255, 255, 1) url(../img/desktop/card_7.svg) bottom left no-repeat;
+}
+
+.cards .card-7 .card-header {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  font-size: 64px;
+}
+
+.cards .card-7 .content {
+  width: 454px;
+  position: absolute;
+  top: 85px;
+  left: 818px;
+}
+
+.cards .card-7 .icons {
+  display: flex;
+  margin-left: 33px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cards .card-7 .icons > * {
+  flex: 1;
+}
+
+.cards .card-7 .icons > * + * {
+  margin-left: 15px;
+}
+
+.cards .card-7 .checklist-1 li {
+  margin-bottom: 6px;
+}
+
+/* footer */
+
+.footer {
+  background-color: rgba(59, 58, 59, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+.footer a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-right: 76px;
+  padding-left: 125px;
+}
+
+.footer .logo {
+  font-family: 'Montserrat';
+  font-size: 36px;
+  letter-spacing: -2%;
+}
+
+.footer .logo img {
+  position: relative;
+  top: -15px;
+  width: 83px;
+  height: 83px;
+  margin-right: 0;
+}
+
+.footer .whois {
+  top: -20px;
+  position: relative;
+  background: url(../img/desktop/hu_logo.svg) left calc(0px + 12px) no-repeat;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  padding-left: 80px;
+}

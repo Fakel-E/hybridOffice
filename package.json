@@ -1,0 +1,12 @@
+{
+  "name": "etiquette",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html, assets/css/index.css, assets/js/index.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.4"
+  }
+}
